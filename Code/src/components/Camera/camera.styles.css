@@ -1,0 +1,36 @@
+.camera-section{
+    position: relative;
+}
+
+.camera_icons{
+    position: absolute;
+    display: flex;
+    bottom: 5%;
+    width: 100%;
+    justify-content: center;
+    gap: 5rem;
+}
+.filler_camera{
+    width: 20px;
+    height: 20px;
+}
+.camera__button{        
+    border-radius: 50%;
+    border: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.switch_camera{
+    cursor: pointer;
+}
+
+.camera__button:hover{
+    background-color: #c7c7c7;
+    border: 1px solid rgb(82, 82, 82);
+}
+
+.camera__button:active{
+    background-color: #555555;
+    border: 1px solid rgb(82, 82, 82);
+}
